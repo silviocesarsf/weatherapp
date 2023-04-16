@@ -6,6 +6,7 @@ export const Context = ({ children }) => {
 	const [cityName, setCityName] = useState("");
 	const [dataApi, setDataApi] = useState([]);
 	const [notFound, setNotFound] = useState(false);
+	const [isLoading, setIsLoading] = useState(false);
 
 	const handleCityName = (event) => {
 		setCityName(event.target.value);
@@ -23,6 +24,8 @@ export const Context = ({ children }) => {
 				dataApi,
 				notFound,
 				setNotFound,
+				isLoading,
+				setIsLoading,
 			}}
 		>
 			{children}
