@@ -1,0 +1,40 @@
+.header-search {
+	position: absolute;
+	top: 5%;
+	font-size: 1.6em;
+}
+
+.search-button {
+	background-color: rgb(118, 201, 240);
+	color: white;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.search-button:hover {
+	background-color: #7380bd;
+}
+
+.image-wheater img {
+	max-height: 200px;
+}
+
+.temperature-humidity {
+	position: absolute;
+	bottom: 10%;
+}
+
+.temperature-humidity .temperature,
+.humidity {
+	font-size: 1.3em;
+}
+
+.humidity-icon {
+	font-size: 1.8em;
+}
