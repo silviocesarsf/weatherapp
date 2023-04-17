@@ -80,17 +80,28 @@
 	.search-button {
 		height: 40px;
 		width: 40px;
-		font-size: .6em;
+		font-size: 0.6em;
 	}
 
 	.header-search {
 		font-size: 1.5em;
+	}
+
+	.actual-climate,
+	.temperature-humidity .temperature,
+	.humidity {
+		font-size: 1em;
 	}
 }
 
 @media (max-width: 472px) {
 	.container-weather {
 		width: 90%;
+	}
+
+	.search-button {
+		position: relative;
+		right: 10px;
 	}
 
 	.hero-image {
