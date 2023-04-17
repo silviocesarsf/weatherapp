@@ -9,4 +9,11 @@ export const Input = styled.input`
 	padding: 10px 1rem;
 	width: 90%;
 
+	@media (max-width: 611px) {
+		font-size: 0.6em;
+	}
+
+	@media (max-width: 365px) {
+		width: 60%;
+	}
 `;

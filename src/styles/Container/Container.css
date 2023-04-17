@@ -4,8 +4,13 @@
 	font-size: 1.6em;
 }
 
+.container-weather {
+	height: 95vh;
+	width: 40%;
+}
+
 .search-button {
-	background-color: rgb(35, 132, 184);
+	background-color: #89aae7;
 	color: white;
 	height: 50px;
 	width: 50px;
@@ -18,7 +23,7 @@
 }
 
 .search-button:hover {
-	background-color: #7380bd;
+	background-color: #5179c2;
 }
 
 .not-type_search {
@@ -34,7 +39,7 @@
 }
 
 .image-wheater {
-	width: 120px;
+	font-size: 7em;
 	margin-bottom: 2rem;
 }
 
@@ -58,4 +63,37 @@
 
 .humidity-icon {
 	font-size: 1.8em;
+}
+
+@media (max-width: 840px) {
+	.container-weather {
+		width: 70%;
+	}
+}
+
+@media (max-width: 611px) {
+	.container-weather {
+		padding: 2rem;
+		width: 80%;
+	}
+
+	.search-button {
+		height: 40px;
+		width: 40px;
+		font-size: .6em;
+	}
+
+	.header-search {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 472px) {
+	.container-weather {
+		width: 90%;
+	}
+
+	.hero-image {
+		max-height: 240px;
+	}
 }
